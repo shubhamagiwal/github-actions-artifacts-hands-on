@@ -25,7 +25,7 @@ jobs:
       steps:
       - name: Download Artifact
         uses: actions/download-artifact@v2
-          with:
+        with:
             name: hello-artifact
             path: ./artifacts
       - name: Read Artifact
